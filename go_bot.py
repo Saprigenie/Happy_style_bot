@@ -8,5 +8,3 @@ print('Введите токен вашего бота:')
 answer = input()
 f.write("token_my =  '%s'" % (str(answer)))
 f.close()
-
-subprocess.Popen('bot.py')
