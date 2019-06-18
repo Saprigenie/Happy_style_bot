@@ -2,6 +2,7 @@
 from io import BytesIO
 import time
 import random
+import os
 
 # Это изменненный мной файл neural_style.py, а точнее его функция stylize
 from bot_utils.my_style import stylize
@@ -98,6 +99,8 @@ if __name__ == '__main__':
     # Включим самый базовый логгинг, чтобы видеть сообщения об ошибках
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
     updater = Updater(token=token_my)
+    if os.path.isfile("bot_utils/telegram_token.py")== True:
+        os.remove("bot_utils/telegram_token.py")
 
     # Отдаем наши функции диспатчеру
     updater.dispatcher.add_handler(MessageHandler(Filters.photo, send_prediction_on_photo))
