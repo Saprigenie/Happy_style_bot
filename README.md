@@ -1,7 +1,7 @@
 # Happy_style_bot
 Этот бот основан на fast-neural-style(https://github.com/pytorch/examples/tree/master/fast_neural_style)
 ## Запуск
-1) Для того, чтобы опробовать его в действии для начала необходимо создать файл telegram_token.py в папку bot_utils, сделать это можно при помощи файла go_bot.py и команды:
+1) Для того, чтобы опробовать его в действии для начала необходимо создать файл telegram_token.py в папке bot_utils, сделать это можно при помощи файла go_bot.py и команды:
 ```bash
 python go_bot.py
 ```
