@@ -20,6 +20,7 @@ answer = str()
 # Нашему боту надо будет запомнить картинку для веселья )
 first_image_file = {}
 def fun(bot, update):
+    global answer
     answer = ''
     bot.send_message(chat_id=update.message.chat_id, text=bot_utils.config.fun_1 )
     bot.send_message(chat_id=update.message.chat_id, text=bot_utils.config.fun_2)
