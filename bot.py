@@ -155,9 +155,13 @@ if __name__ == '__main__':
     # Включим самый базовый логгинг, чтобы видеть сообщения об ошибках
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
     updater = Updater(token=token_my)
+    #
+    # # Эта вещь очень опциональная, если не хотите, чтобы после каждого запуска удалялся token.py, то закоментите (или удалите)
+    # # Мне было нужно, чтобы с гугл диска запускать успешно )
     if os.path.isfile("bot_utils/telegram_token.py")== True:
         os.remove("bot_utils/telegram_token.py")
 
+    # #   
     # Создадим новый фильтр, чтобы бот понимал, что от него требуют
     class FilterAnswer(BaseFilter):
           def filter(self, message):
