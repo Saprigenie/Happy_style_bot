@@ -26,7 +26,7 @@ style_5_photo = 'https://ae01.alicdn.com/kf/HTB1QYoNKpXXXXbdXXXXq6xXFXXX3/-.jpg'
 style_6_text = 'Введи 6, если любишь футуризм всем сердцем:'
 style_6_photo = 'http://www.avangardism.ru/img/pu/4pu.jpg'
 
-style_7_text = 'Введи 7, если хочешь веселого эксперимента:'
+style_7_text = 'Введи 7, если хочешь интересного сочетания:'
 style_7_photo = 'http://www.futurism.ru/a-z/zdanevichk/1.jpg'
 
 style_8_text = 'Введи 8, если... Какого? Нет, не вводи! Аниме и реальная жизнь несовместимы!!'
