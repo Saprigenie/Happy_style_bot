@@ -235,7 +235,7 @@ def run_style_transfer(bot, update, content_img_path, style_img_path, cnn = cnn,
                   bot.delete_message(chat_id=msg.chat_id,
                               message_id=msg.message_id)
               # Пусть бот даст человеку возможность наслаждаться процессом )
-              msg = imshow_bot(bot, update, input_img, '-------------{}/120-------------'.format(run[0]))
+              msg = imshow_bot(bot, update, input_img, '------------------{}/120------------------'.format(run[0]))
             return style_score + content_score
         optimizer.step(closure) 
     # a last correction...
