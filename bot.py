@@ -20,6 +20,10 @@ answer = str()
 # Нашему боту надо будет запомнить картинку для веселья )
 first_image_file = {}
 def fun(bot, update):
+    # Это против некоторых ситуаций, когда пользователь до этого выбрал картинку стиля и перезапустил
+    global first_image_file
+    first_image_file = {}
+    # Это против написанной до этого цифры
     global answer
     answer = ''
     bot.send_message(chat_id=update.message.chat_id, text=bot_utils.config.fun_1 )
