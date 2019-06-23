@@ -5,7 +5,7 @@ startCommand_3 = 'Для веселого эксперимента с собст
 
 #/style
 style_0_text = '''Окей, давай посмотрим...
-                     Введи 0, если сегодня у Вас нет желания выбирать ☺'''
+Введи 0, если сегодня выбор не твое ☺'''
 style_0_photo = 'https://images-na.ssl-images-amazon.com/images/I/61xNiS1PIJL._SY355_.jpg'
 
 style_1_text = 'Введи 1, если хочешь что-то такое:'
