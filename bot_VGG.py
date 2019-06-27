@@ -11,7 +11,7 @@ from bot_utils.my_style import stylize
 # Импортируем токен бота
 from bot_utils.telegram_token import token_my
 #Импортируем нейросеточку для переноса стиля с любой картинки(но в плохом качестве + медленно)
-from bot_utils.neural_style_with_your_image import run_style_transfer
+from bot_utils.neural_style_with_your_image_VGG import run_style_transfer
 # Импортируем файл, в котором все ответы бота
 import bot_utils.config
 
